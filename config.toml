@@ -58,7 +58,7 @@ theme = 'hello-friend-ng'
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "/about/page/1/index.html"
+    url        = "/about/index.html"
 
 
 [deployment]
