@@ -13,5 +13,5 @@ I am a maintainer for an internal access request tooling at **Adyen** reducing t
 You can find my resume [here](../Caleb_Farrell_Resume.pdf) and my full cv can be found on my [LinkedIn](https://www.linkedin.com/in/caleb-farrell/)
 
 ## Contact Me
- - Email: [caleb.farrell@valhallahosting.ca](mailto:caleb.farrell@valhallahosting.ca)
+ - Email: [caleb.farrell@valhallahosting.ca](mailto:me@cfarrell.dev)
  - LinkedIn: [Caleb Farrell](https://www.linkedin.com/in/caleb-farrell/)
