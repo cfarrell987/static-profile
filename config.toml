@@ -1,69 +1,76 @@
-baseURL = "https://profile.valhallhosting.ca/"
+baseURL = "https://profile.cfarrell.dev/"
 languageCode = "en-us"
 title = "Caleb Farrell"
 theme = 'hello-friend-ng'
 
+[permalinks]
+posts = "/posts/:year/:month/:title/"
+
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
 
-  # Subtitle for home
-  homeSubtitle = "Systems Engineer"
+# Subtitle for home
+homeSubtitle = "Systems Engineer"
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
 
-  # Enable sharing buttons, if you like
-  enableSharingButtons = true
+# Enable sharing buttons, if you like
+enableSharingButtons = true
 
-  # Metadata mostly used in document's head
-  description = "My homepage"
-  keywords = "homepage, contact"
-  images = [""]
+# Metadata mostly used in document's head
+description = "My homepage"
+keywords = "homepage, contact"
+images = [""]
 
 [[params.social]]
-  name = "github"
-  url = "https://github.com/cfarrell987"
+name = "github"
+url = "https://github.com/cfarrell987"
 [[params.social]]
-  name = "linkedin"
-  url = "https://www.linkedin.com/in/caleb-farrell/"
+name = "linkedin"
+url = "https://www.linkedin.com/in/caleb-farrell/"
 [[params.social]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com/users/12700393/farrell987"
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/12700393/farrell987"
 
 [taxonomies]
-    category = "about"
-    tag      = "tags"
-    series   = "series"
+category = "about"
+tag = "tags"
+series = "series"
 
 [languages]
-  [languages.en]
-    title = "Caleb Farrell"
-    subtitle = "Systems Engineer"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
+[languages.en]
+title = "Caleb Farrell"
+subtitle = "Systems Engineer"
+keywords = ""
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+readOtherPosts = "Read other posts"
 
-    [languages.en.params.logo]
-      logoText = "hello@cfarrell.dev ~ $"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+[languages.en.params.logo]
+logoText = "hello@cfarrell.dev ~ $"
+logoHomeLink = "/"
+# or
+#
+# path = "/img/your-example-logo.svg"
+# alt = "Your example logo alt text"
 
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about/index.html"
+# And you can even create generic menu
 
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/index.html"
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "posts/"
 
 [deployment]
 
 [[deployment.targets]]
-name= "aws-cfarrell"
+name = "aws-cfarrell"
 URL = "s3://cfarrell-profile?region=ca-central-1"
-cloudFrontDistributionID = "E2450QGJV31UK3"
+cloudFrontDistributionID = "E2CU7P47V4VSOC"
