@@ -79,4 +79,4 @@ This isn't an exhaustive list of services but the main ones I am running.
 - Re-implement a web-interface for the NFS share
 - Maybe migrate docker services to kubernetes
 
-[^1]: I am also running some privately services in development that aren't ready for public use. I am just internally using them and testing. Some of which may never see the light of day.
+[^1]: I am also running some private services in development that aren't ready for public use. I am just internally using them and testing. Some of which may never see the light of day.
